@@ -4,13 +4,13 @@ function Mostrar()
 	var nota = Math.floor(Math.random() * 11);
 	
 		if(nota == 9 || nota == 10){
-			alert("Excelente");
+			alert("Excelente: "+ nota);
 		}
 		else if(nota < 4){
-			alert("Vamos!");
+			alert("Vamos!"+""+ nota);
 		}
 		else{
-			alert("Aprobo");
+			alert("Aprobo: "+ nota);
 		}
 
 
