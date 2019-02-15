@@ -7,7 +7,7 @@ function Mostrar()
 			alert("Excelente: "+ nota);
 		}
 		else if(nota < 4){
-			alert("Vamos!"+""+ nota);
+			alert("Vamos, la proxima se puede!. Tu nota: "+ nota);
 		}
 		else{
 			alert("Aprobo: "+ nota);
